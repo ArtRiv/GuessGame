@@ -1,0 +1,156 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62,5%;
+}
+
+body {
+    background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+.hide {
+    display: none;
+}
+
+.page {
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.screen1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page h2 {
+    margin-bottom: 1.6rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+
+    color: #34355B;
+}
+
+.page span {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    color: #34355BCC;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.8rem;
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+form input {
+    background-color: #bac4cf;
+    color: #34355B;
+
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+
+    border-radius: .4rem 0 0 .4rem;
+
+    appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+
+    width: 5rem;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+form button {
+    background-color: #7879F1;
+    color: #FFF;
+
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5151ea;
+}
+
+.errorMessageContainer {
+    margin-top: 1.5rem;
+    
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.errorMessageContainer img {
+    width: 5%;
+    height: 5%;
+}
+.errorMessageContainer span {
+    color:#ef3e3e;
+}
+
+.screen2 {
+    display: none;
+}
+
+.screen2 span {
+    color: #34355B;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 24px;
+    line-height: 3.6rem;
+
+    padding-bottom: 1.5rem;
+}
+
+.screen2 button {
+    background-color: #7879F1;
+    color: #FFF;
+
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+
+    border-radius: .4rem .4rem .4rem .4rem;
+    cursor: pointer;
+}    
+
+button:hover {
+    background-color: #5151ea;
+}
